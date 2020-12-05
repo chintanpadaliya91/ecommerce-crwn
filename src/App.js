@@ -5,7 +5,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils'
 import { connect } from 'react-redux'
 
 import HomePage from './pages/homapage/homePage'
-import Shop from './pages/shop/shop'
+import Shop from './pages/shop/shop.component'
 import SignInSignUpPage from "./pages/sign-in-sign-up/sign-in-sign-up.component";
 import CheckoutPage from "./pages/checkout/checkout.component";
 
